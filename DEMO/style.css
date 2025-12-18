@@ -1,0 +1,24 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    display: inline-block;
+    animation: cim 1s infinite;
+    padding: 20px 20px ;
+}
+
+/* @keyframes light {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+} */
+
+@keyframes cim {
+    0%{ width: 500px;background-color: red;}
+    25%{width: 600px;background-color: yellow;}
+    50%{width: 700px;background-color: blue;}
+    75%{width: 800px;background-color: green;} 
+    100%{width: 900px;background-color: rgb(0, 77, 128);}   
+  
+}
