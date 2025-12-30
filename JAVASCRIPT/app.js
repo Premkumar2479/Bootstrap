@@ -14,7 +14,7 @@ document.write("your name is " + name);
 var fristName = "Nick";
 var lastName ="jonas";
 document.write(fristName + " " + lastName);
-
+ 
 
 // write a program to find the sum of two numbers
 // write a program to find the area of square

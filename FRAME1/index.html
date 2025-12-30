@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Message /Content changes</p>
+    <from action="" method="get">
+        <label for="password">password check</label>
+        <input type="password" name="password" id="password">
+        <input type="button" onclick="validate()" value="validate">
+    </from>
+
+    <div id="msg">
+        
+    </div>
+    <script>
+        function validaate(){
+            let password = document.getElementById("password").value;
+
+            document.getElementById("msg").innerHTML="<p style='color:green;'>please enter password</p>";
+            let len=password.length;
+            if(len<6){
+                document.getElementById("msg").innerHTML="<p style='color:red;'>please enter password length</p>";
+            }
+        }
+    </script>
+</body>
+</html>
